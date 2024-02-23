@@ -13,14 +13,14 @@ agent {
         }
 
     stages {
-            stage('Hello') {
+            stage('HelloWelcome') {
                 steps {
                     echo 'This is a test project'
                 }
             }
         }
     stages {
-            stage('Hello') {
+            stage('Bye') {
                 steps {
                     echo 'Thank you'
                 }
