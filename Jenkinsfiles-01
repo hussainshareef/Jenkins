@@ -10,16 +10,14 @@ agent {
                     echo 'Hello World'
                 }
             }
-        }
 
-    stages {
             stage('HelloWelcome') {
                 steps {
                     echo 'This is a test project'
                 }
             }
-        }
-    stages {
+        
+    
             stage('Bye') {
                 steps {
                     echo 'Thank you'
