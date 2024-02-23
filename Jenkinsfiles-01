@@ -18,6 +18,7 @@ pipeline {
                     }
                 }
             
+            
                 stage('Bye') {
                     steps {
                         echo 'Thank you'
