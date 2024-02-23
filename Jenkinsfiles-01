@@ -1,0 +1,30 @@
+agent {
+    node {
+        label 'Agent-01'
+    }
+}
+
+    stages {
+            stage('Hello') {
+                steps {
+                    echo 'Hello World'
+                }
+            }
+        }
+
+    stages {
+            stage('Hello') {
+                steps {
+                    echo 'This is a test project'
+                }
+            }
+        }
+
+    stages {
+            stage('Hello') {
+                steps {
+                    echo 'Thank you'
+                }
+            }
+        }
+    
