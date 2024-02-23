@@ -19,7 +19,6 @@ agent {
                 }
             }
         }
-
     stages {
             stage('Hello') {
                 steps {
