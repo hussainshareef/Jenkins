@@ -1,27 +1,28 @@
-agent {
-    node {
-        label 'Agent-01'
-    }
-}
-
-    stages {
-            stage('Hello') {
-                steps {
-                    echo 'Hello World'
-                }
-            }
-
-            stage('HelloWelcome') {
-                steps {
-                    echo 'This is a test project'
-                }
-            }
-        
-    
-            stage('Bye') {
-                steps {
-                    echo 'Thank you'
-                }
-            }
+pipeline {
+    agent {
+        node {
+            label 'Agent-01'
         }
-    
+    }
+
+        stages {
+                stage('Hello') {
+                    steps {
+                        echo 'Hello World'
+                    }
+                }
+
+                stage('HelloWelcome') {
+                    steps {
+                        echo 'This is a test project'
+                    }
+                }
+            
+        
+                stage('Bye') {
+                    steps {
+                        echo 'Thank you'
+                    }
+                }
+            }
+}   
